@@ -198,19 +198,17 @@ User Query
 
 ```
 
-Zycus/
-
 ├── injestion.py              # Ingestion pipeline (PDF → chunks → FAISS)
 
 ├── app.py                    # Streamlit chat app (retrieval + agents + UI)
 
-├── Sample Policies.pdf       # The policy document
+├── Sample Policies.pdf       # The policy document (Need to put user relevenat pdf)
 
 ├── faiss_index/              # Persisted FAISS index (generated after ingestion)
 
 ├── conversation_memory.json  # Chat history (generated at runtime)
 
-└── .venv/                    # Python virtual environment
+└── .venv/                    # Python virtual environment (Create Python virtual env)
 
 ```
 
@@ -308,6 +306,6 @@ streamlit run app.py
 
  
 
-This opens a browser tab at `http://localhost:8501` where you can start asking questions.
+This opens a browser tab at `http://localhost:<Port>` where you can start asking questions.
 
  
